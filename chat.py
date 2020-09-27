@@ -27,7 +27,7 @@ def write_file(filename, lines):
 		for line in lines:
 			f.write(line + '\n')
 
-# 執行檔
+# 執行程式
 def main():
 	lines = read_file('input.txt')
 	lines = convert(lines)
